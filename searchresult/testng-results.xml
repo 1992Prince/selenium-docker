@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37247" started-at="2022-10-22T14:25:06 GMT" finished-at="2022-10-22T14:25:44 GMT">
+    <groups>
+    </groups>
+    <test name="search-test-java" duration-ms="19956" started-at="2022-10-22T14:25:06 GMT" finished-at="2022-10-22T14:25:26 GMT">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.searchmodule.tests.SearchTest@27efef64]" name="setupDriver" is-config="true" duration-ms="3982" started-at="2022-10-22T14:25:06 GMT" finished-at="2022-10-22T14:25:10 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ef74c30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@27efef64]" name="search" duration-ms="15866" started-at="2022-10-22T14:25:10 GMT" finished-at="2022-10-22T14:25:26 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@27efef64]" name="quitDriver" is-config="true" duration-ms="70" started-at="2022-10-22T14:25:26 GMT" finished-at="2022-10-22T14:25:26 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-test-java -->
+    <test name="search-test-qa" duration-ms="16779" started-at="2022-10-22T14:25:27 GMT" finished-at="2022-10-22T14:25:44 GMT">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.searchmodule.tests.SearchTest@754ba872]" name="setupDriver" is-config="true" duration-ms="917" started-at="2022-10-22T14:25:27 GMT" finished-at="2022-10-22T14:25:28 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7283d3eb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@754ba872]" name="search" duration-ms="15791" started-at="2022-10-22T14:25:28 GMT" finished-at="2022-10-22T14:25:44 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@754ba872]" name="quitDriver" is-config="true" duration-ms="68" started-at="2022-10-22T14:25:44 GMT" finished-at="2022-10-22T14:25:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-test-qa -->
+  </suite> <!-- Suite -->
+</testng-results>
